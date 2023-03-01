@@ -1,0 +1,14 @@
+# recaptcha-js:
+#   filter: rjsmin
+#   output: ckanext-recaptcha/%(version)s-recaptcha.js
+#   contents:
+#     - js/recaptcha.js
+#   extra:
+#     preload:
+#       - base/main
+
+# recaptcha-css:
+#   filter: cssrewrite
+#   output: ckanext-recaptcha/%(version)s-recaptcha.css
+#   contents:
+#     - css/recaptcha.css
